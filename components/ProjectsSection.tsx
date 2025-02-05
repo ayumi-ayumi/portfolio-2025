@@ -6,19 +6,21 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Reatime chat app",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Realtime chat app using socket.io, node.js, and mongoDB with a responsive design.",
+    tools: ["React", "TypeScript", "TailwindCSS", "vite", "socket.io", "axios", "express", "mongoDB", "mongoose", "react-router-dom",],
+    image: "/realtime-chat.png",
+    github: "https://github.com/ayumi-ayumi/realtime_chat",
+    link: "https://realtime-chat-frontend-quvh.onrender.com",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
+    name: "Bookshelf",
+    description: "Bookshelf is yuor own database of books you have read, which you can record a review of a book",
+    tools: ["React", "TailwindCSS", "vite", "axios", "express", "mongoDB", "mongoose", "react-router-dom",],
     image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "https://github.com/ayumi-ayumi/bookshelf",
+    link: "",
   },
   {
     name: "Kator Family Photos",
@@ -80,7 +82,7 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+
       </div>
     </section>
   )
